@@ -3,7 +3,7 @@
 
 
 ### Contenido
-1. [Casos de uso](#casos-de-uso-📋)
+1. [Casos de uso](#casos-de-uso-clipboard)
     
     1.1 [Caso de uso Usuarios](#caso-de-uso-usuarios)
     
@@ -13,21 +13,21 @@
     
     1.4 [Caso de uso Ventas](#caso-de-uso-ventas)
     
-2. [Informe del Sistema](#informe-del-sistema-📝)
+2. [Informe del Sistema](#informe-del-sistema-pencil)
     
     2.1 [Screenshot del sistema :camera:](#screenshot-del-sistema-camera)
 
-3. [Pre-requisitos](#pre-requisitos)
-4. [Instalación](#instalación-🛠️)
-5. [Despliegue](#despliegue-📦)
-6. [Tecnologías](#tecnologías-💻)
-7. [Datos a tener en cuenta](#datos-a-tener-en-cuenta-⚠️)
+3. [Pre-requisitos](#pre-requisitos-wrench)
+4. [Instalación](#instalación-factory)
+5. [Despliegue](#despliegue-rocket)
+6. [Tecnologías](#tecnologías-computer)
+7. [Datos a tener en cuenta](#datos-a-tener-en-cuenta-warning)
 8. [Anexo Back-End](#anexo-back-end)
-9. [Autor](#autor-✒️)
+9. [Autor](#autor-black_nib)
 
 El sistema esta creado a fin de dar cumplimiento a la solicitud de la materia Programación 3 del INSPT-UTN, el mismo consta de los siguientes requisitos:
 
-## Casos de uso 📋
+## Casos de uso :clipboard:
 
 ### Caso de uso Usuarios 
 * Alta de usuario
@@ -49,7 +49,7 @@ El sistema esta creado a fin de dar cumplimiento a la solicitud de la materia Pr
 * Crear nueva venta
 * Cambiar de estado venta
 
-## Informe del sistema 📝
+## Informe del sistema :pencil:
 
 Si bien presenta una UI similar a un e-commerce, a diferencia de este, el sistema permite administración de productos, y usuarios, las ventas, como así también la visualización de las ventas realziadas y permitir la cancelación de las mismas. El sistema fue desarrolla bajo el stack MERN, y en el siguiente archivo se puede ver la información correspondiente al sevidor [Back-end](https://github.com/fgmamoris/p3-mern/tree/master/backend)
 
@@ -353,7 +353,7 @@ export const DashBoardSellerRoutes = () => {
 #### Checkout
 ![Checkout](/images/Checkout.png)
 
-## Pre-requisitos 🔧
+## Pre-requisitos :wrench:
 
 _Para la desarrollo y ejecución del proyecto se utilizó las siguientes tecnologías_
 
@@ -367,7 +367,7 @@ _Para la desarrollo y ejecución del proyecto se utilizó las siguientes tecnolo
 
 * [REACT DEV TOOLS](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=es) - Herramienta web para desarrolladores
 
-## Instalación 🛠️
+## Instalación :factory:
 
 1. Clonar repositorio
 
@@ -401,7 +401,7 @@ npm start
 
 
 
-## Despliegue 📦
+## Despliegue :rocket:
 
 Si bien no era requisito el despliegue del sistema en servidores web, se busco dicho despliegue a fin de dar una mejor y completa impletación de dicho sistema.
 
@@ -413,7 +413,7 @@ _Base de datos alojada en: [Mongo Atlas](https://www.mongodb.com/cloud/atlas)_
 
 _Imagenes alojadas en: [Cloudinary](https://www.cloudinary.com/)_
 
-## Tecnologías 💻
+## Tecnologías :computer:
 
 Para dar cumplimiento a los requisitos solicitados se utilizaron las siguientes herramientas para el desarrollo del sistema Front-End.
 
@@ -426,7 +426,7 @@ Para dar cumplimiento a los requisitos solicitados se utilizaron las siguientes 
 * [react-bootstrap-icons](https://www.npmjs.com/package/react-bootstrap-icons) - Iconos complementarios
 * [Sweetalert2](https://sweetalert2.github.io/) - Manejador de alertas/popup boxes
 
-## Datos a tener en cuenta ⚠️
+## Datos a tener en cuenta :warning:
 
 _El sistema debe contener al menos un usuario Gerente, dado que si se eliminan todos los usuarios de la base de datos, no se va a poder realizar la creación de nuevos usuarios, ya que el metodo POST para la creación de usuarios esta validado por rol de usuario, y token._
 
@@ -436,7 +436,8 @@ _En caso de querer correr un servidor desarrollo, deberá realizar la configurac
 
 ## Anexo Back-End 
 [Back-end](https://github.com/fgmamoris/p3-mern/tree/master/backend)
-## Autor ✒️
+
+## Autor :black_nib:
 
 **Federico Mamoris** 
 
