@@ -3,7 +3,7 @@
 
 
 ### Contenido
-1. [Casos de uso](#casos-de-uso-clipboard)
+1. [Casos de uso :clipboard:](#casos-de-uso-clipboard)
     
     1.1 [Caso de uso Usuarios](#caso-de-uso-usuarios)
     
@@ -13,17 +13,17 @@
     
     1.4 [Caso de uso Ventas](#caso-de-uso-ventas)
     
-2. [Informe del Sistema](#informe-del-sistema-pencil)
+2. [Informe del Sistema :pencil:](#informe-del-sistema-pencil)
     
     2.1 [Screenshot del sistema :camera:](#screenshot-del-sistema-camera)
 
-3. [Pre-requisitos](#pre-requisitos-wrench)
-4. [Instalación](#instalación-factory)
-5. [Despliegue](#despliegue-rocket)
-6. [Tecnologías](#tecnologías-computer)
-7. [Datos a tener en cuenta](#datos-a-tener-en-cuenta-warning)
+3. [Pre-requisitos :wrench:](#pre-requisitos-wrench)
+4. [Instalación :factory:](#instalación-factory)
+5. [Despliegue :rocket:](#despliegue-rocket)
+6. [Tecnologías :computer:](#tecnologías-computer)
+7. [Datos a tener en cuenta :warning:](#datos-a-tener-en-cuenta-warning)
 8. [Anexo Back-End](#anexo-back-end)
-9. [Autor](#autor-black_nib)
+9. [Autor :black_nib:](#autor-black_nib)
 
 El sistema esta creado a fin de dar cumplimiento a la solicitud de la materia Programación 3 del INSPT-UTN, el mismo consta de los siguientes requisitos:
 
