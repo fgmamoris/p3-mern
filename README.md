@@ -351,7 +351,7 @@ export const DashBoardSellerRoutes = () => {
 #### Orden de venta
 ![sale](/images/sale.png)
 #### Checkout
-![Checkout](/images/Checkout.png)
+![Checkout](/images/checkout.png)
 
 ## Pre-requisitos :wrench:
 

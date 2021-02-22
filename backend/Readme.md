@@ -3,21 +3,21 @@
 
 
 ### Contenido
-1. [Informe de Sistema](#informe-de-sistema).
-2. [Super Market API](#super-market-api).
+1. [Informe del Sistema :pencil:](#informe-del-sistema-pencil)
+2. [Super Market API :bookmark_tabs:](#super-market-api-bookmark_tabs).
     2.1 [Auth](#auth)
     2.2 [Usuarios](#usuarios)
     2.3 [Productos](#productos)
     2.4 [Orden](#orden)
     2.5 [Ventas](#ventas)
     2.6 [Imagen](#imagen)
-3. [Instalación](#instalación-🛠️).
-4. [Despliegue](#despliegue-📦).
-5. [Datos a tener en cuenta](#datos-a-tener-en-cuenta-⚠️).
-6. [Anexo Front-end](#Anexo-Back-end)
-7. [Autor](#autor-✒️)
+3. [Instalación :factory:](#instalación-factory).
+4. [Despliegue :rocket:](#despliegue-rocket).
+5. [Datos a tener en cuenta :warning:](#datos-a-tener-en-cuenta-warning).
+6. [Anexo Front-end](#anexo-front-end)
+7. [Autor :black_nib:](#autor-black_nib)
 
-## Informe de sistema 
+## Informe de sistema :pencil:
 
 Es el sistema Back-End que complementa el desarrollo y funcionamiento del [Super Market](http://www.github.com). Desarrollado bajo NodeJS y ExpressJS. 
 Para el desarrollo del Back-End se utilizaron las siguientes de pendencias: 
@@ -79,7 +79,7 @@ En caso que se solicite algun objeto a la base de datos y el mismo no sea encont
     "msg": "[Objecto a buscar] not found"
 }```
 ```
-## Super Market API
+## Super Market API :bookmark_tabs:
 
 #### Auth
 #### `HOST/API/AUTH`
@@ -833,7 +833,7 @@ Se envia el parametro "ID" de la venta que se desea actualizar y cambiar el esta
 Respuesta del metodo PUT, es un _JSON_STATUS_OK_ 200, con la información de la venta actualiza y el valor de state="inactive". Dado que es la función implementada dentro del end point.
 
 
-## Instalación 🛠️
+## Instalación :factory:
 
 1. Clonar repositorio
 
@@ -870,7 +870,7 @@ npm run dev
 🌟 Listo! Se puede utilizar los endpoint!
 
 
-## Despliegue 📦
+## Despliegue :rocket:
 
 Si bien no era requisito el despliegue del sistema en servidores web, se busco dicho despliegue a fin de dar una mejor y completa impletación de dicho sistema.
 
@@ -882,7 +882,7 @@ _Base de datos alojada en: [Mongo Atlas](https://www.mongodb.com/cloud/atlas)_
 
 _Imagenes alojadas en: [React dev tools Chrome](https://www.cloudinary.com/)_
 
-## Datos a tener en cuenta ⚠️
+## Datos a tener en cuenta :warning:
 
 _El sistema debe contener al menos un usuario Gerente, dado que si se eliminan todos los usuarios de la base de datos, no se va a poder realizar la creación de nuevos usuarios, ya que el metodo POST para la creación de usuarios esta validado por rol de usuario, y token._
 
@@ -891,8 +891,9 @@ _Si bien las peticiones a Cloudinary deberian ser realizadas por el servido Back
 _En caso de querer correr un servidor d edesarrollo, deberá realizar la configuración de las variables de entorno._
 
 ## Anexo Front-End 
-[link](https://www.gituhub.com/)
-## Autor ✒️
+[link](https://github.com/fgmamoris/p3-mern.git)
+
+## Autor :black_nib:
 
 **Federico Mamoris** 
 
