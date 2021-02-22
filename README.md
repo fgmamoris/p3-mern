@@ -51,7 +51,7 @@ El sistema esta creado a fin de dar cumplimiento a la solicitud de la materia Pr
 
 ## Informe del sistema 📝
 
-Si bien presenta una UI similar a un e-commerce, a diferencia de este, el sistema permite administración de productos, y usuarios, las ventas, como así también la visualización de las ventas realziadas y permitir la cancelación de las mismas. El sistema fue desarrolla bajo el stack MERN, y en el siguiente archivo se puede ver la información correspondiente al sevidor Back-End: link readme backend
+Si bien presenta una UI similar a un e-commerce, a diferencia de este, el sistema permite administración de productos, y usuarios, las ventas, como así también la visualización de las ventas realziadas y permitir la cancelación de las mismas. El sistema fue desarrolla bajo el stack MERN, y en el siguiente archivo se puede ver la información correspondiente al sevidor [Back-end](https://github.com/fgmamoris/p3-mern/tree/master/backend)
 
 Para el desarrollo se busco utilizar Redux, a fin de evitar estar haciendo peticiónes constantes o redundante al backend, y solo realizarlas en caso de confirmar alguna acción, ya sea crear, modificar o eliminar.
 El store se creo de la siguiente manera:
@@ -336,7 +336,7 @@ export const DashBoardSellerRoutes = () => {
 };
 ``` 
 
-## ScreenShot del sistema 📷
+## ScreenShot del sistema :camera:
 
 #### Lista de Usuarios
 ![ListUsers](c:/users/user/desktop/images/users.png)
@@ -435,7 +435,7 @@ _Si bien las peticiones a Cloudinary deberian ser realizadas por el servido Back
 _En caso de querer correr un servidor desarrollo, deberá realizar la configuración de las variables de entorno._
 
 ## Anexo Back-End 
-[link](https://www.gituhub.com/)
+[Back-end](https://github.com/fgmamoris/p3-mern/tree/master/backend)
 ## Autor ✒️
 
 **Federico Mamoris** 
