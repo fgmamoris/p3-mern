@@ -339,19 +339,19 @@ export const DashBoardSellerRoutes = () => {
 ## ScreenShot del sistema :camera:
 
 #### Lista de Usuarios
-![ListUsers](c:/users/user/desktop/images/users.png)
+![ListUsers](/images/users.png)
 #### Lista de Productos
-![ListProducts](c:/users/user/desktop/images/products.png)
+![ListProducts](/images/products.png)
 #### Formulario nuevo usuario
-![form](c:/users/user/desktop/images/formnewuser.png)
+![form](/images/formnewuser.png)
 #### Mensaje de confirmación
-![messegDelete](c:/users/user/desktop/images/messegeDelete.png)
+![messegDelete](/images/messegeDelete.png)
 #### Modal seleccionar cantidad de producto
-![modaladdproduct](c:/users/user/desktop/images/modaladdproduct.png)
+![modaladdproduct](/images/modaladdproduct.png)
 #### Orden de venta
-![sale](c:/users/user/desktop/images/sale.png)
+![sale](/images/sale.png)
 #### Checkout
-![Checkout](c:/users/user/desktop/images/Checkout.png)
+![Checkout](/images/Checkout.png)
 
 ## Pre-requisitos 🔧
 
