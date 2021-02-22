@@ -15,7 +15,7 @@
     
 2. [Informe del Sistema](#informe-del-sistema-📝)
     
-    2.1 [Screenshot del sistema](#screenshot-del-sistema-:camera:)
+    2.1 [Screenshot del sistema :camera:](#screenshot-del-sistema-:camera:)
 
 3. [Pre-requisitos](#pre-requisitos)
 4. [Instalación](#instalación-🛠️)
