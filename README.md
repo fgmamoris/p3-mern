@@ -15,7 +15,7 @@
     
 2. [Informe del Sistema](#informe-del-sistema-📝)
     
-    2.1 [Screenshot del sistema :camera:](#screenshot-del-sistema-:camera:)
+    2.1 [Screenshot del sistema :camera:](#screenshot-del-sistema-camera)
 
 3. [Pre-requisitos](#pre-requisitos)
 4. [Instalación](#instalación-🛠️)
@@ -372,7 +372,7 @@ _Para la desarrollo y ejecución del proyecto se utilizó las siguientes tecnolo
 1. Clonar repositorio
 
 ```bash
-git clone https://github.com/.git
+git clone https://github.com/fgmamoris/p3-mern
 ```
 
 2. Configurar archivo .env con sus propias variables de entorno
