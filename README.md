@@ -4,10 +4,15 @@
 
 ### Contenido
 1. [Casos de uso](#casos-de-uso-📋)
+    
     1.1 [Caso de uso Usuarios](#caso-de-uso-usuarios)
+    
     1.2 [Caso de uso Productos](#caso-de-uso-productos)
+    
     1.3 [Caso de uso Orden de venta](#caso-de-uso-orden-de-venta)
+    
     1.4 [Caso de uso Ventas](#caso-de-uso-ventas)
+    
 2. [Informe del Sistema](#informe-del-sistema-📝)
     2.1 [Screenshot del sistema](#screenshot-del-sistema-📷)
 3. [Pre-requisitos](#pre-requisitos-🔧)
@@ -227,7 +232,7 @@ export const emailValidation = (inputData) => {
 };
 ```
 
-De la misma manera se creación funciones para validar que el vencimiento de las tarjetas de pago validateCreditDateExpiration.
+De la misma manera se crearon funciones para validar que el vencimiento de las tarjetas de pago validateCreditDateExpiration.
 ```bash
 export const validateCreditDateExpiration = (inputExpireDate) => {
   if (
