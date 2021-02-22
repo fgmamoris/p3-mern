@@ -5,12 +5,19 @@
 ### Contenido
 1. [Informe del Sistema :pencil:](#informe-del-sistema-pencil)
 2. [Super Market API :bookmark_tabs:](#super-market-api-bookmark_tabs).
+    
     2.1 [Auth](#auth)
+    
     2.2 [Usuarios](#usuarios)
+    
     2.3 [Productos](#productos)
+    
     2.4 [Orden](#orden)
+    
     2.5 [Ventas](#ventas)
+    
     2.6 [Imagen](#imagen)
+
 3. [Instalación :factory:](#instalación-factory).
 4. [Despliegue :rocket:](#despliegue-rocket).
 5. [Datos a tener en cuenta :warning:](#datos-a-tener-en-cuenta-warning).
@@ -617,7 +624,6 @@ Solo hay que enviar en los headers la key: "x-access-token", y el value, debe se
 La respuesta _JSON_STATUS_OK__(_200)_ con todas las ventas que se encuentren registradas en el sistema.
 ```JSON
 {
-    {
     "ok": true,
     "msg": "Get Sales",
     "sales": [
@@ -648,9 +654,8 @@ La respuesta _JSON_STATUS_OK__(_200)_ con todas las ventas que se encuentren reg
             "state": "inactive",
             "__v": 0,
             "seller": "Ventas Sucursal 1"
-        },
-            ]
-    }
+        }
+    ]
 }
 ```
 
