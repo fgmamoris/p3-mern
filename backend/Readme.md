@@ -19,7 +19,7 @@
 
 ## Informe de sistema :pencil:
 
-Es el sistema Back-End que complementa el desarrollo y funcionamiento del [Super Market](http://www.github.com). Desarrollado bajo NodeJS y ExpressJS. 
+Es el sistema Back-End que complementa el desarrollo y funcionamiento del [Super Market](https://github.com/fgmamoris/p3-mern.git). Desarrollado bajo NodeJS y ExpressJS. 
 Para el desarrollo del Back-End se utilizaron las siguientes de pendencias: 
 * Mongoose - ODM para base de datos.
 * Jsonwebtoken - Creación de token para usuarios
@@ -891,7 +891,7 @@ _Si bien las peticiones a Cloudinary deberian ser realizadas por el servido Back
 _En caso de querer correr un servidor d edesarrollo, deberá realizar la configuración de las variables de entorno._
 
 ## Anexo Front-End 
-[link](https://github.com/fgmamoris/p3-mern.git)
+[Front-End - Client](https://github.com/fgmamoris/p3-mern.git)
 
 ## Autor :black_nib:
 
