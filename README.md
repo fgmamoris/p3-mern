@@ -14,8 +14,10 @@
     1.4 [Caso de uso Ventas](#caso-de-uso-ventas)
     
 2. [Informe del Sistema](#informe-del-sistema-📝)
+    
     2.1 [Screenshot del sistema](#screenshot-del-sistema-📷)
-3. [Pre-requisitos](#pre-requisitos-🔧)
+
+3. [Pre-requisitos](#pre-requisitos)
 4. [Instalación](#instalación-🛠️)
 5. [Despliegue](#despliegue-📦)
 6. [Tecnologías](#tecnologías-💻)
