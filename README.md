@@ -403,7 +403,7 @@ npm start
 
 ## Despliegue :rocket:
 
-Si bien no era requisito el despliegue del sistema en servidores web, se busco dicho despliegue a fin de dar una mejor y completa impletación de dicho sistema.
+Si bien no era requisito el despliegue del sistema en servidores web, se busco dicho despliegue a fin de dar una mejor y completa implementación de dicho sistema.
 
 _Front-End desplegado en: [Heroku](https://www.heroku.com/)_
 
