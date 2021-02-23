@@ -51,7 +51,7 @@ El sistema esta creado a fin de dar cumplimiento a la solicitud de la materia Pr
 
 ## Informe del sistema :pencil:
 
-Si bien presenta una UI similar a un e-commerce, a diferencia de este, el sistema permite administración de productos, y usuarios, las ventas, como así también la visualización de las ventas realziadas y permitir la cancelación de las mismas. El sistema fue desarrolla bajo el stack MERN, y en el siguiente archivo se puede ver la información correspondiente al sevidor [Back-end](https://github.com/fgmamoris/p3-mern/tree/master/backend)
+Si bien presenta una UI similar a un e-commerce, a diferencia de este, el sistema permite administración de productos, y usuarios, las ventas, como así también la visualización de las ventas realziadas y permitir la cancelación de las mismas. El sistema fue desarrolla bajo el stack MERN, y en el siguiente archivo se puede ver la información correspondiente al sevidor [Back-end](https://github.com/fgmamoris/p3-mern-be.git)
 
 Para el desarrollo se busco utilizar Redux, a fin de evitar estar haciendo peticiónes constantes o redundante al backend, y solo realizarlas en caso de confirmar alguna acción, ya sea crear, modificar o eliminar.
 El store se creo de la siguiente manera:
@@ -405,13 +405,40 @@ npm start
 
 Si bien no era requisito el despliegue del sistema en servidores web, se busco dicho despliegue a fin de dar una mejor y completa impletación de dicho sistema.
 
-_Front-End desplegado en: [React dev tools Chrome](https://www.google.com/intl/es-419/chrome/)_
+_Front-End desplegado en: [Heroku](https://www.heroku.com/)_
 
 _Back-End desplegado en: [Heroku](https://www.heroku.com/)_
 
 _Base de datos alojada en: [Mongo Atlas](https://www.mongodb.com/cloud/atlas)_
 
 _Imagenes alojadas en: [Cloudinary](https://www.cloudinary.com/)_
+
+Para poder realizar el correcto despligue de la app, se realizaron algunas modificaciones al código, dado que al ser una SPA, el servidor heroku modifica la ruta de la página cuando se actualiza el navegador. Es decir, siempre que el usuario navegue sin refrescar la página no va a dar ningún error, pero en caso que el usuario actualice o la página donde se encuentre, el servidor heroku retorna la ruta, pero agregando un hash en el medio del path, _por ejemplo: "https://supermarket-b.herokuapp.com/#/users"_
+Esto trae consecuencias negativas, provocando una respuesta 404 por parte del servidor. Para solucionar esto, se realizo la siguiente configuración:
+* creación del archivo _redict, dentro de la carpeta public.
+```bash
+/* /index.html 200
+```
+* configuración package.json
+```JSON
+"homepage": "https://supermarket-b.herokuapp.com/"
+```
+* Por ultimo se cambio el intercambio del BrowserRouter por HashRouter, en el componente MarkerRouter.js
+```bash
+import { HashRouter as Router, Switch, Redirect } from 'react-router-dom';
+```
+
+Una vez realizada esta configuración, se procedio a realizar el build del _Front-End_
+```bash
+npm run build
+```
+Antes de terminar con el despligue, se copiaron todos los archivos creados en el build del paso anterior y se copiaron dentro de la carpeta public del _Back-End_
+
+Para finalizar se realizo el despligue del servidor _Back-End_, con el _Front-End_ integrado, a la plataforma [Heroku](https://www.heroku.com/). Siguiendo indicaciónes de dicha plataforma para poder realizar el correcto despligue.
+
+Se opto por subir los dos servidores a heroku, dado que es mas facil la integración del Front y el back, sin necesidad de recurir a otro servidor para clients como puede ser Netlify.
+
+**URL: https://supermarket-b.herokuapp.com/**
 
 ## Tecnologías :computer:
 
@@ -435,7 +462,7 @@ _Si bien las peticiones a Cloudinary deberian ser realizadas por el servido Back
 _En caso de querer correr un servidor desarrollo, deberá realizar la configuración de las variables de entorno._
 
 ## Anexo Back-End 
-[Back-end](https://github.com/fgmamoris/p3-mern/tree/master/backend)
+[Back-end](https://github.com/fgmamoris/p3-mern-be.git)
 
 ## Autor :black_nib:
 
